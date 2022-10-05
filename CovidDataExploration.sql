@@ -9,7 +9,9 @@ Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, 
 --- What is the likelihood of dying if a Nigerian contracts covid?
 --- What percentage of each country's population is infected with Covid?
 --- What countries have the Highest Infection Rate with respect to their Population?
-----What Countries have the Highest Death Count per Population?
+--- What Countries have the Highest Death Count per Population?
+--- What continents have the Highest Death Count per Population?
+
 
 USE PortfolioProject; 
 GO
@@ -25,8 +27,8 @@ ORDER BY 3,4
 SELECT 
 	Location, 
 	date, 
-	total_cASes, 
-	new_cASes, 
+	total_cases, 
+	new_cases, 
 	total_deaths, 
 	population
 FROM PortfolioProject..CovidDeaths
@@ -38,9 +40,9 @@ ORDER BY 1,2
 SELECT 
 	Location, 
 	date, 
-	total_cASes,
+	total_cases,
 	total_deaths, 
-	(total_deaths/total_cASes)*100 AS DeathPercentage
+	(total_deaths/total_cases)*100 AS DeathPercentage
 FROM PortfolioProject..CovidDeaths
 WHERE 
 	location = 'Nigeria'
@@ -54,8 +56,8 @@ SELECT
 	Location, 
 	date, 
 	Population, 
-	total_cASes,  
-	(total_cASes/population)*100 AS PercentPopulationInfected
+	total_cases,  
+	(total_cases/population)*100 AS PercentPopulationInfected
 FROM PortfolioProject..CovidDeaths
 --Where location = 'Nigeria'
 ORDER BY 1,2
@@ -66,8 +68,8 @@ ORDER BY 1,2
 SELECT 
 	Location, 
 	Population, 
-	MAX(total_cASes) AS HighestInfectionCount,  
-	Max((total_cASes/population))*100 AS PercentPopulationInfected
+	MAX(total_cases) AS HighestInfectionCount,  
+	Max((total_cases/population))*100 AS PercentPopulationInfected
 FROM PortfolioProject..CovidDeaths
 GROUP BY 
 	Location, 
@@ -97,7 +99,7 @@ ORDER BY
 
 SELECT 
 	continent, 
-	MAX(cASt(Total_deaths AS int)) AS TotalDeathCount
+	MAX(CAST(Total_deaths AS int)) AS TotalDeathCount
 FROM PortfolioProject..CovidDeaths
 WHERE continent is not null 
 GROUP BY 
@@ -111,7 +113,7 @@ ORDER BY
 -- What contintents have the highest infection count per population?
 SELECT 
 	continent, 
-	MAX(total_cASes) AS HighestInfectionCount
+	MAX(total_cases) AS HighestInfectionCount
 FROM PortfolioProject..CovidDeaths
 WHERE continent is not null 
 GROUP BY
@@ -125,9 +127,9 @@ ORDER BY
 
 -- Total Deaths Globally
 SELECT 
-	SUM(new_cASes) AS total_cASes, 
-	SUM(cASt(new_deaths AS int)) AS total_deaths, 
-	SUM(cASt(new_deaths AS int))/SUM(New_CASes)*100 AS DeathPercentage
+	SUM(new_cases) AS total_cases, 
+	SUM(CAST(new_deaths AS int)) AS total_deaths, 
+	SUM(CAST(new_deaths AS int))/SUM(New_Cases)*100 AS DeathPercentage
 FROM PortfolioProject..CovidDeaths
 WHERE continent is not null 
 --GROUP BY date
@@ -135,9 +137,9 @@ ORDER BY 1,2
 
 -- Total Deaths/CASes per day
 SELECT 
-	SUM(new_cASes) AS total_cASes, 
-	SUM(cASt(new_deaths AS int)) AS total_deaths, 
-	SUM(cASt(new_deaths AS int))/SUM(New_CASes)*100 AS DeathPercentage
+	SUM(new_cases) AS total_cases, 
+	SUM(CAST(new_deaths AS int)) AS total_deaths, 
+	SUM(CAST(new_deaths AS int))/SUM(New_Cases)*100 AS DeathPercentage
 FROM PortfolioProject..CovidDeaths
 WHERE continent is not null 
 GROUP BY date
@@ -146,7 +148,7 @@ ORDER BY 1,2
 
 
 -- Looking at Total Population vs Vaccinations
--- Shows Percentage of Population that hAS recieved at leASt one Covid Vaccine
+-- Shows Percentage of Population that has recieved at least one Covid Vaccine
 
 
 SELECT 
@@ -277,6 +279,7 @@ CREATE VIEW TotalDeathCounPerLocation AS
  --ORDER BY 
 	--TotalDeathCount DESC
 
+
 CREATE VIEW TotalDeathCounPerContinent AS
  SELECT 
 	continent, 
@@ -286,3 +289,7 @@ CREATE VIEW TotalDeathCounPerContinent AS
  GROUP BY 
 	continent 
 
+
+SELECT *
+FROM TotalDeathCounPerContinent
+ORDER BY 1
