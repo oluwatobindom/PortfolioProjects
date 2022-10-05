@@ -147,6 +147,11 @@ ORDER BY 1,2
 
 
 
+-- Reviewing the Vaccinations table
+SELECT * 
+FROM CovidVaccinations
+ORDER BY 3,4
+
 -- Looking at Total Population vs Vaccinations
 -- Shows Percentage of Population that has recieved at least one Covid Vaccine
 
@@ -290,7 +295,7 @@ CREATE VIEW TotalDeathCounPerContinent AS
 	continent 
 
 
--- Check the View
+-- Checking the Views
 SELECT *
 FROM PercentPopulationVaccinated
 ORDER BY 1
