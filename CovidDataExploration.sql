@@ -290,6 +290,15 @@ CREATE VIEW TotalDeathCounPerContinent AS
 	continent 
 
 
+-- Check the View
+SELECT *
+FROM PercentPopulationVaccinated
+ORDER BY 1
+
+SELECT *
+FROM TotalDeathCounPerCountry
+ORDER BY 1
+
 SELECT *
 FROM TotalDeathCounPerContinent
 ORDER BY 1
