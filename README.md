@@ -22,7 +22,7 @@ You can also connect with me on Linkedin [![Linkedin Badge](https://img.shields.
 - COVID-19 Dataset: Data Exploration
   - Review the SQL Script: <a href="https://github.com/Tobitoke/PortfolioProjects/blob/main/SQL%20-%20Data%20Exploration.sql" target="_blank">HERE</a>
 - Nashville Housing: Data Cleaning
-  - Review the SQL Script: <a href="https://github.com/Tobitoke/PortfolioProjects/blob/main/SQL%20-%20Data%20Cleaning" target="_blank">HERE</a>
+  - Review the SQL Script: <a href="(https://github.com/Tobitoke/PortfolioProjects/blob/main/SQL%20-%20Data%20Cleaning.sql)" target="_blank">HERE</a>
   
   
   
