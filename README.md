@@ -36,10 +36,11 @@ You can also connect with me on Linkedin [![Linkedin Badge](https://img.shields.
      
 :ballot_box_with_check: PYTHON:
 - NHANES Dataset: Data Exploration I
-  - Review the Notebook: <a href="https://github.com/Tobitoke/PortfolioProjects/blob/main/Python%20-%20NHANES%20Data%20Exploration.ipynb" target="_blank">HERE</a>
+  - Review the complete analysis: <a href="https://github.com/Tobitoke/PortfolioProjects/blob/main/Python%20-%20NHANES%20Data%20Exploration.ipynb" target="_blank">HERE</a>
 - NHANES Dataset: Data Exploration II
-  - Review the Jupyter Script: <a href="https://github.com/Tobitoke/PortfolioProjects/blob/main/NHANES_II%20Data%20Exploration.ipynb" target="_blank">HERE</a>
-
+  - Review the complete analysis: <a href="https://github.com/Tobitoke/PortfolioProjects/blob/main/NHANES_II%20Data%20Exploration.ipynb" target="_blank">HERE</a>
+- Carwheel Dataset: Case Study EDA
+  - Review the complete analysis: <a href="https://github.com/Tobitoke/PortfolioProjects/blob/main/PYTHON%20-%20Cartwheel%20Case%20Study%20EDA.ipynb" target="_blank">HERE</a>
 
   
 :ballot_box_with_check: POWER BI:
