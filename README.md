@@ -3,55 +3,46 @@
 </h1>
 
 <h2>
-  The following are my projects in SQL, Python, Tableau, Power Bi & Excel:
+  The following are my projects in SQL, Python, Tableau & Excel:
  </h2>
  
  
 
 <h4>
- You can take a look at my personal website <a href="https://oluwatobindom.github.io/" target="_blank">Oluwatobi Ndom</a>
+  
+- You can take a look at my personal website <a href="https://oluwatobindom.github.io/" target="_blank">Oluwatobi Ndom</a>
+  
 </h4>
 <h4>
 
-You can also connect with me on Linkedin [![Linkedin Badge](https://img.shields.io/badge/-Oluwatobi_Ndom-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/oluwatobi-n-a8145a79/)
+- You can also connect with me on Linkedin [![Linkedin Badge](https://img.shields.io/badge/-Oluwatobi_Ndom-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/oluwatobi-n-a8145a79/)
 
 
----
-
-:ballot_box_with_check: SQL:
-- COVID-19 Dataset: Data Exploration
-  - Review the SQL Script: <a href="https://github.com/Tobitoke/PortfolioProjects/blob/main/SQL%20-%20Data%20Exploration.sql" target="_blank">HERE</a>
-- Nashville Housing: Data Cleaning
-  - Review the SQL Script: <a href="https://github.com/Tobitoke/PortfolioProjects/blob/main/SQL%20-%20Data%20Cleaning.sql" target="_blank">HERE</a>
-  
-  
-  
-:ballot_box_with_check: EXCEL:
-
--  Kindly download these Excel files and view them in Microsoft Excel by clicking on the hyperlinks below.
-      - <a href="https://github.com/Tobitoke/PortfolioProjects/raw/main/EXCEL%20-%20Pivot%20Tables%2C%20Pivot%20Charts%2C%20Slicers.xlsx" target="_blank">Sales Performance Dashboard</a>
-      - <a href="https://github.com/Tobitoke/PortfolioProjects/raw/main/EXCEL%20-%20Sumifs%2C%20Vloookup%2C%20Choose%2C%20Index%20%26%20Match.xlsx" target="_blank">Customer Quotation: Sumifs, Vloookup, Choose, Index & Match</a>
-     
-     
-     
-:ballot_box_with_check: PYTHON:
-- NHANES Dataset: Data Exploration I
-  - Review the complete analysis: <a href="https://github.com/Tobitoke/PortfolioProjects/blob/main/PYTHON%20-%20NHANES%20EDA%20I.ipynb" target="_blank">HERE</a>
-- NHANES Dataset: Data Exploration II
-  - Review the complete analysis: <a href="https://github.com/Tobitoke/PortfolioProjects/blob/main/PYTHON%20-NHANES%20EDA%20II.ipynb" target="_blank">HERE</a>
-- Carwheel Dataset: Case Study EDA
-  - Review the complete analysis: <a href="https://github.com/Tobitoke/PortfolioProjects/blob/main/PYTHON%20-%20Cartwheel%20EDA.ipynb" target="_blank">HERE</a>
 
   
-:ballot_box_with_check: POWER BI:
--  To view these Dashboards...
-      - <a href="##########" target="_blank">Dashboard</a>
--  To view these Dashboards...
-      - <a href="##########" target="_blank">Dashboard</a>
-      
+| Project Name | Description   | Skills/Tools |
+| ----------------------- | ------------- | ------------- |
+| <h3>:ballot_box_with_check: SQL:</h3>                       |
+| <a href="https://github.com/Tobitoke/PortfolioProjects/blob/main/SQL/Covid19%20Global%20-%20DataExploration.sql" target="_blank">COVID-19 Global Trends </a> | Wrote SQL queries to investigate the COVID-19 infection and spread globally. The data used in this project sourced from <a href="https://ourworldindata.org/covid-deaths" target="_blank">Our World in Data</a>| Data manipulation, importing, Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types  |
+| <a href="https://github.com/Tobitoke/PortfolioProjects/blob/main/SQL/NashvilleHousing%20-%20Data%20Cleaning.sql" target="_blank">Nashville Housing </a> | Wrote SQL queries to restructure and clean the Nashille Housing dataset  | Data cleaning, Logical queries, Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions | 
+| <a href="https://github.com/Tobitoke/PortfolioProjects/blob/main/SQL/The%20Golden%20Age%20of%20Video%20Games.ipynb" target="_blank">The Golden Age of Video Games </a> | PostgreSQL Guided Project in Jupyter Notebook: Wrote SQL queries to explore best-selling games, effect of customer reviews and market growth patterns  | Subqueries, Aggregate Functions |  
+| <a href="https://github.com/Tobitoke/PortfolioProjects/blob/main/SQL/International%20Debt%20Statistics.ipynb" target="_blank">International Debt Statistics </a> | PostgreSQL Guided Project in Jupyter Notebook: Wrote SQL queries to analyze international debt data collected by The World Bank  | Subqueries, Aggregate Functions |
+| <a href="https://github.com/Tobitoke/PortfolioProjects/blob/main/SQL/The%20World's%20Oldest%20Businesses.ipynb" target="_blank">The World's Oldest Businesses </a> | PostgreSQL Guided Project in Jupyter Notebook: Wrote SQL queries to explore the data from <a href="https://BusinessFinancing.co.uk" target="_blank">Business Financing UK</a> on the world's oldest businesses; answering interesting questions and identifying trends | Data manipulation, Joins, Subqueries, Aggregate Functions |
+|||  
+| <h3>:ballot_box_with_check: PYTHON:</h3>  |    |  |
+|  <a href="https://github.com/Tobitoke/PortfolioProjects/blob/main/PYTHON/NHANES%20I%20-%20Data%20Exploration.ipynb" target="_blank">The National Health and Nutrition Examination Survey (NHANES) I</a> | The purpose of this project is to identify and visualize certain characteristics and trends using statistical methods and data visualization techniques. | Pandas, Numpy, Matplotlib, Seaborn, Statsmodel |
+| <a href="https://github.com/Tobitoke/PortfolioProjects/blob/main/PYTHON/NHANES%20II%20-%20Data%20Exploration.ipynb" target="_blank">The National Health and Nutrition Examination Survey (NHANES) II</a> | The purpose of this project is to identify and visualize certain characteristics and trends using statistical methods and data visualization techniques.  | Statsmodel, Scipy, Linegress, Pandas, Numpy, Matplotlib, Seaborn  |
+| <a href="https://github.com/Tobitoke/PortfolioProjects/blob/main/PYTHON/Cartwheel%20%20-%20Data%20Exploration.ipynb" target="_blank">Cartwheels - A Subsection of the University of Michigan</a> | The purpose of this project is to identify and visualize the data's main characteristics and trends, and deriving insights  | Scipy, Pandas, Numpy, Matplotlib, Seaborn  |
+|||
+| <h3>:ballot_box_with_check: EXCEL:</h3>  |    |  |
+|  <a href="https://github.com/Tobitoke/PortfolioProjects/blob/main/EXCEL/Dashboard%20-%20Pivot%20Tables%2C%20Pivot%20Charts%2C%20Slicers.xlsx" target="_blank">Sales Performance Dashboard</a> | The data in this file is for a Canadian office supply chain and was used to create a Sales Performance Dashboard| Pivot Tables, Pivot Charts, IF & IFError, Dynamic labelling, Slicers|
+| <a href="https://github.com/Tobitoke/PortfolioProjects/blob/main/EXCEL/Quotation%20-%20Sumifs%2C%20Vloookup%2C%20Choose%2C%20Index%20%26%20Match.xlsx" target="_blank">Customer Quotation</a> | The purpose of this project was to create a customer's quote  | SumIfs, Vlookup, Index & Match, Choose |  
+
       
      
-:ballot_box_with_check: TABLEAU:
+<h3>:ballot_box_with_check: TABLEAU:</h3>
+
+
 -  To view these Dashboards in Tableau Public, kindly click the links above the images.
       - <a href="https://public.tableau.com/app/profile/oluwatobi.ndom/viz/CovidDataVisualization_16650337890860/Dashboard1" target="_blank">Covid19 Dashboard</a>
        ![Covid19-Viz_Projections](https://user-images.githubusercontent.com/98953710/195890615-546fd4b4-b28a-4b46-8924-3aa615c3ee04.png) 
