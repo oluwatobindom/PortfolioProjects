@@ -44,8 +44,16 @@
 
 
 -  To view these Dashboards in Tableau Public, kindly click the links above the images.
-      - <a href="https://public.tableau.com/app/profile/oluwatobi.ndom/viz/CovidDataVisualization_16650337890860/Dashboard1" target="_blank">Covid19 Dashboard</a>
+    <h3>
+    
+     - <a href="https://public.tableau.com/app/profile/oluwatobi.ndom/viz/CovidDataVisualization_16650337890860/Dashboard1" target="_blank">Covid19 Dashboard</a>
        ![Covid19-Viz_Projections](https://user-images.githubusercontent.com/98953710/195890615-546fd4b4-b28a-4b46-8924-3aa615c3ee04.png) 
+       
+       <h3>
+       
+       <h3>
        
       - <a href="https://public.tableau.com/app/profile/oluwatobi.ndom/viz/SalesPerformanceDashboard_16651210027870/SalesPerformanceDashboard" target="_blank">Sales Performance Dashboard</a>
       ![SalesPerformanceDashboard](https://user-images.githubusercontent.com/98953710/195890847-1a17ab06-c6c9-4596-a4a0-3c14be75bbb7.png)
+      
+      </h3>
