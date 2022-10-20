@@ -2,9 +2,9 @@
   Portfolio Projects Guide
 </h1>
 
-<h2>
-  The following are my projects in SQL, Python, Tableau & Excel:
- </h2>
+<h3>
+  Welcome to my Portfolio Guide where I provide a walkthrough to all of my data analytics projects in SQL, Python, Tableau & Excel:
+ </h3>
  
  
 
