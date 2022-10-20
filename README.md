@@ -1,5 +1,5 @@
 <h1>
-  Portfolio Projects
+  Portfolio Projects Guide
 </h1>
 
 <h2>
