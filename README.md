@@ -2,20 +2,22 @@
   Portfolio Projects Guide
 </h1>
 
-<h3>
+<h4>
   Welcome to my Portfolio Guide where I provide a walkthrough to all of my data analytics projects in SQL, Python, Tableau & Excel:
- </h3>
+ </h4>
+ <h6>
+
+Feel to chat with me on Linkedin [![Linkedin Badge](https://img.shields.io/badge/-Oluwatobi_Ndom-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/oluwatobi-n-a8145a79/) about my projects
+
  
  
+ ## Table of Contents
+- [SQL](#ballot_box_with_check-sql)
+- [Python](#ballot_box_with_check-python)
+- [Excel](#ballot_box_with_check-excel)
+- [Tableau](#ballot_box_with_check-tableau)
+ 
 
-<h4>
-  
-- You can take a look at my personal website <a href="https://oluwatobindom.github.io/" target="_blank">Oluwatobi Ndom</a>
-  
-</h4>
-<h4>
-
-- You can also connect with me on Linkedin [![Linkedin Badge](https://img.shields.io/badge/-Oluwatobi_Ndom-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/oluwatobi-n-a8145a79/)
 
 
   
