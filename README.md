@@ -43,7 +43,7 @@ Feel to chat with me on Linkedin [![Linkedin Badge](https://img.shields.io/badge
 | Project Name  |   Description | Skills/Tools |
 | ------------- | ------------- | ------------ |
 |  <a href="https://github.com/Tobitoke/PortfolioProjects/blob/main/PYTHON/NHANES%20I%20-%20Data%20Exploration.ipynb" target="_blank">The National Health and Nutrition Examination Survey (NHANES) I</a> | The purpose of this project is to identify and visualize certain characteristics and trends using statistical methods and data visualization techniques. | Pandas, Numpy, Matplotlib, Seaborn, Statsmodel |
-| <a href="https://github.com/Tobitoke/PortfolioProjects/blob/main/PYTHON/NHANES%20II%20-%20Data%20Exploration.ipynb" target="_blank">The National Health and Nutrition Examination Survey (NHANES) II</a> | The purpose of this project is to identify and visualize certain characteristics and trends using statistical methods and data visualization techniques.  | Statsmodel, Scipy, Linegress, Pandas, Numpy, Matplotlib, Seaborn  |
+| <a href="https://github.com/Tobitoke/PortfolioProjects/blob/main/PYTHON/NHANES%20II%20-%20Data%20Exploration.ipynb" target="_blank">The National Health and Nutrition Examination Survey (NHANES) II</a> | A deeper dive into the NHANES dataset | Statsmodel, Scipy, Linegress, Pandas, Numpy, Matplotlib, Seaborn  |
 | <a href="https://github.com/Tobitoke/PortfolioProjects/blob/main/PYTHON/Cartwheel%20%20-%20Data%20Exploration.ipynb" target="_blank">Cartwheels - A Subsection of the University of Michigan</a> | The purpose of this project is to identify and visualize the data's main characteristics and trends, and deriving insights  | Scipy, Pandas, Numpy, Matplotlib, Seaborn  |
 
   
